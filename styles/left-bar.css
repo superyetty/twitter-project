@@ -1,0 +1,103 @@
+.left-section{
+  width: 610px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 200;
+}
+.left-sidebar{
+  width: 50%;
+  position: absolute;
+  left: 300px;
+  bottom: 0;
+  top: 0;
+  padding: 4px;
+}
+.sidebar-logo-head{
+  padding: 12px 14px;
+}
+.sidebar-link{
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  align-items: center;
+  padding: 12px 16px;
+}
+
+.sidebar-twitter-logo{
+  width: 25px;
+  align-items: center;
+}
+.home-icon{
+  width: 25px;
+}
+.search-icon{
+  width: 25px
+}
+.notification-icon{
+  width: 25px;
+}
+.message-icon{
+  width: 25px;
+}
+.list-icon{
+  width: 25px;
+}
+.communities-icon{
+  width: 25px;
+}
+.twitter-logo{
+  width: 24px;
+}
+.profile-icon{
+  width: 30px;
+}
+.more-icon{
+  width: 25px;
+}
+.sidebar-home{
+  font-weight: 600;
+  font-size: 20px;
+}
+.sidebar-post-button{
+  background-color: rgb(51, 157, 255);
+  padding: 15px 80px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+.profile-pic{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.sidebar-logo-head{
+  height: 50px;
+}
+.sidebar-link div{
+  margin-left: 20px;
+  font-size: 18px;
+}
+.sidebar-profile-info-container{
+  width: 90%;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  padding: 12px;
+}
+.sidebar-profile-pic-container{
+  width: 55px;
+}
+.profiler-handle-info{
+  text-align: center;
+}
+.sidebar-profile-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

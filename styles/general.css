@@ -1,0 +1,9 @@
+body{
+  font-family: roboto arial;
+  padding-left: 610px;
+  padding-bottom: 100%;
+  margin: 0;
+}
+body .twitter-holder-post{
+  padding-top: 100px;
+}

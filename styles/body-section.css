@@ -1,0 +1,131 @@
+.twitter-body-grid{
+  width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+}
+
+.first-body-section{
+  width: 550px;
+}
+
+.Header{
+  width: 550px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  opacity: 0.968;
+  margin-bottom: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(224, 224, 224);
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(219, 219, 219);
+  z-index: 100;
+}
+.header-home{
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: end;
+  padding: 0 16px;
+}
+.header-tags{
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+.header-tags div{
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+.twitter-holder-post{
+  margin: 0;
+}
+.twitter-holder-post{
+  width: 518px;
+  height: 80px;
+  display: flex;
+  margin: 0;
+  padding: 12px 16px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(224, 224, 224);
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(219, 219, 219);
+}
+.twitter-holder-post{
+  display: flex;
+}
+.profile-image-thumb{
+  margin-right: 10px;
+  padding-top: 5px;
+}
+.profile-pic{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.profile-post-thumb{
+  flex: 1;
+}
+.search-bar{
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+}
+.search-bar::placeholder{
+  height: 40px;
+  font-size: 17px;
+}
+.icon-post-thumb{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-bottom: 5px;
+}
+.icon-tag{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-tag img{
+  align-items: center;
+}
+.gallery-icon{
+  width: 17px;
+  margin-right: 20px;
+}
+.gif-icon{
+  width: 17px;
+  margin-right: 20px;
+}
+.poll-icon{
+  width: 17px;
+  margin-right: 20px;
+}
+.smiley-icon{
+  width: 20px;
+  margin-right: 20px;
+}
+.schedule-icon{
+  width: 30px;
+  margin-right: 20px;
+}
+.tag-location-icon{
+  width: 17px;
+  margin-right: 10px;
+}
+.post-button{
+  background-color: rgb(106, 192, 241);
+  padding: 8px 15px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+}

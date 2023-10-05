@@ -1,0 +1,157 @@
+.second-body-section{
+  position: relative;
+  top: 0;
+  right: 0px;
+  flex-shrink: 0;
+}
+.right-sidebar-header{
+  display: flex;
+  flex: 1;
+  background-color: rgb(228, 228, 228);
+  align-items: center;
+  border-radius: 20px;
+  position: fixed;
+  top: 0;
+}
+.right-sidebar-search-icon-thumb{
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-sidebar-search-icon{
+  width: 15px;
+  padding-left: 15px;
+  object-fit: cover;
+}
+.right-sidebar-searchbar{
+  border-radius: 30px;
+  font-size: 16px;
+  background-color: rgb(228, 228, 228);
+  width: 253px;
+  border: none;
+  padding: 10px 15px;
+  
+}
+
+.right-sidebar-searchbar::placeholder{
+  background-color: rgb(228, 228, 228);
+  font-size: 15px;
+}
+.right-sidebar-premium-desc{
+  padding: 12px 16px;
+  background-color: rgb(246, 255, 246);
+  border-radius: 15px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.premium-sub{
+  display: inline;
+  font-size: 18px;
+  font-weight: 700;
+}
+.premium-desc{
+  width: 280px;
+  font-size: 15px;
+  line-height: 18px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+.premium-subscribe-button{
+  padding: 7px 17px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 17px;
+  cursor: pointer;
+}
+.trends-post-thumbs{
+  background-color: rgb(246, 255, 246);
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.trends{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 16px;
+}
+.individual-trending-posts{
+  padding: 12px 16px;
+  cursor: pointer;
+}
+.individual-trending-posts:hover{
+  background-color: rgb(226, 226, 226);
+}
+.trend-location-thumb{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.trending-country{
+  font-size: 13px;
+  color: rgb(107, 105, 105);
+}
+.dots{
+  font-size: 17px;
+  font-weight: 700;
+  align-items: baseline;
+  color: rgb(107, 105, 105)
+}
+.trending-title{
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 3px;
+}
+.trending-stats{
+  font-size: 13px;
+  color: rgb(107, 105, 105);
+  margin-top: 3px;
+}
+.who-to-follow{
+  font-size: 20px;
+  font-weight: 700;
+}
+.profile-pic-thumb{
+  width: 50px;
+}
+.profile-info{
+  display: flex;
+  padding: 12px 0 ;
+}
+.profile-info:hover{
+  background-color: rgb(226, 226, 226);
+}
+
+.profile-detail-thumb{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.profile-name{
+  font-size: 16px;
+  font-weight: 600;
+}
+.handle{
+  font-size: 12px;
+}
+.follows{
+  font-size: 10px;
+}
+
+.Follow-button{
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 15px;
+}
+.follow-suggestion{
+  padding: 12px 16px;
+  background-color: rgb(246, 255, 246);
+  border-radius: 15px;
+}
